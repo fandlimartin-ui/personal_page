@@ -22,7 +22,7 @@ function Hero() {
         </div>
         <div className="hero-visual">
           <img
-            src="/martin.png"
+            src={`${import.meta.env.BASE_URL}martin.png`}
             alt="Portrait and full-length photo of Martin Fandli in a brown suit"
           />
         </div>
